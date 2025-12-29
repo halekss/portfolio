@@ -82,17 +82,17 @@ function App() {
             {/* Projet 1 */}
             <article className="project-card">
               {/* Le chemin d'image commence par / pour aller chercher dans public */}
-              <div className="project-img" style={{ backgroundImage: "url('/images/pict_toys_and_models.png')" }}></div>
+              <div className="project-img" style={{ backgroundImage: "url('images/pict_toys_and_models.png')" }}></div>
               <div className="card-content">
                 <h3 className="card-title">Dashboard KPI Financiers : Toys & Models</h3>
                 <p className="card-desc">Création de requêtes SQL complexes pour extraire les indicateurs clés et visualisation interactive sur Power BI.</p>
-                <a href="/toys_and_models.pdf" target="_blank" className="card-link">Voir le Dashboard &rarr;</a>
+                <a href="toys_and_models.pdf" target="_blank" className="card-link">Voir le Dashboard &rarr;</a>
               </div>
             </article>
 
             {/* Projet 2 */}
             <article className="project-card">
-              <div className="project-img" style={{ backgroundImage: "url('/images/senechal_movie.png')" }}></div>
+              <div className="project-img" style={{ backgroundImage: "url('images/senechal_movie.png')" }}></div>
               <div className="card-content">
                 <h3 className="card-title">Modèle de recommandation de films</h3>
                 <p className="card-desc">Exploration et nettoyage d'un jeu de données pour entrainement d'un modèle de Machine Learning, utilisable directement sur une application Streamlit.</p>
@@ -113,7 +113,7 @@ function App() {
             <div className="btn-group">
               <a href="mailto:alex_2c@hotmail.fr" className="btn btn-primary">M'envoyer un mail</a>
               <a href="https://www.linkedin.com/in/alex-cattelin/" target="_blank" className="btn btn-outline">LinkedIn</a>
-              <a href="/Alex_Cattelin_Alternance.pdf" target="_blank" className="btn btn-outline">Mon CV</a>
+              <a href="Alex_Cattelin_Alternance.pdf" target="_blank" className="btn btn-outline">Mon CV</a>
               <a href="https://github.com/halekss" target="_blank" className="btn btn-outline">Mon GitHub</a>
             </div>
           </div>
