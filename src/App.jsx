@@ -103,6 +103,37 @@ function App() {
           </div>
         </section>
 
+        {/* --- SECTION BUISNESS CASE --- */}
+        <section id="buisness case">
+          <h2 className="section-title">Buisness Case</h2>
+          {/* On réutilise la même grille que pour les projets pour garder le style */}
+          <div className="projects-grid">
+            
+            {/* Business Case 1 (Exemple à remplir) */}
+            <article className="project-card">
+              {/* Pense à mettre une image illustrative ici */}
+              <div className="project-img" style={{ backgroundImage: "url('images/illus_jv.png')" }}></div>
+              <div className="card-content">
+                <h3 className="card-title">Consommation du jeu vidéo</h3>
+                <p className="card-desc">Analyse approfondie des performances commerciales des jeux vidéos selon différents facteurs et recommandations stratégiques présentées au client en vue de créer un nouveau jeu.</p>
+                
+                {/* Groupe de deux boutons pour les PDFs */}
+                <div style={{ display: 'flex', gap: '10px', marginTop: '1rem' }}>
+                  <a href="pbi_jeux_video.pdf" target="_blank" className="btn btn-primary" style={{ fontSize: '0.9rem', padding: '0.5rem 1rem' }}>
+                    Rapport Power BI
+                  </a>
+                  <a href="PPT_bc_jeux_video.pdf" target="_blank" className="btn btn-outline" style={{ fontSize: '0.9rem', padding: '0.5rem 1rem' }}>
+                    Support PPT
+                  </a>
+                </div>
+              </div>
+            </article>
+
+             {/* Tu peux dupliquer tout le bloc <article> ci-dessus pour ajouter un 2ème Business Case */}
+
+          </div>
+        </section>
+
         {/* --- SECTION CONTACT --- */}
         <section id="contact">
           <h2 className="section-title">Me Contacter</h2>
