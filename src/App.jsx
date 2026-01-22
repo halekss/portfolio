@@ -23,7 +23,7 @@ function App() {
         {/* --- HEADER --- */}
         <header id="home">
           <h1>Alex Cattelin<br /><span className="gradient-text">Data Analyst</span></h1>
-          <p className="subtitle">En route vers l'Engineering & la Data Science.</p>
+          <p className="subtitle">Convertir la donnée brute en information exploitable : c'est ce qui me motive. Data Analyst junior, je cherche à enrichir mon expertise technique et explorer les passerelles vers le Data Engineering et la Data Science sur des projets concrets.</p>
           
           <div className="btn-group">
             <a href="#projects" className="btn btn-primary">Voir mes projets</a>
