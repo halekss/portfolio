@@ -68,6 +68,9 @@ function App() {
               <h3 className="skill-title">Data Engineering & ML</h3>
               <div className="skill-tags">
                 <span className="skill-tag">Scikit-learn</span>
+                <span className="skill-tag">API & WebScraping</span>
+                <span className="skill-tag">Docker</span>
+                <span className="skill-tag">Airflow</span>
               </div>
             </div>
           </div>
@@ -97,6 +100,16 @@ function App() {
                 <h3 className="card-title">Modèle de recommandation de films</h3>
                 <p className="card-desc">Exploration et nettoyage d'un jeu de données pour entrainement d'un modèle de Machine Learning, utilisable directement sur une application Streamlit.</p>
                 <a href="https://senechalmovieapp-cvl6oryohmkmr7rzmgngg9.streamlit.app/" target="_blank" className="card-link">Voir le site &rarr;</a>
+              </div>
+            </article>
+
+            {/* Projet 3 */}
+            <article className="project-card">
+              <div className="project-img" style={{ backgroundImage: "url('images/view_website_oracle.png')" }}></div>
+              <div className="card-content">
+                <h3 className="card-title">Oracle des Loyers</h3>
+                <p className="card-desc">Récupération et affichage sur map React d'annonces immobilières & établissements commerciaux / publics avec intégration chatbot cynique pour comparer les prix entre les quartiers de Lyon.</p>
+                <a href="https://github.com/halekss/oracle_loyers.git" target="_blank" className="card-link">Voir le dépôt Github &rarr;</a>
               </div>
             </article>
 
