@@ -157,7 +157,7 @@ function App() {
             <div className="btn-group">
               <a href="mailto:alex_2c@hotmail.fr" className="btn btn-primary">M'envoyer un mail</a>
               <a href="https://www.linkedin.com/in/alex-cattelin/" target="_blank" className="btn btn-outline">LinkedIn</a>
-              <a href="Alex_Cattelin_CV.pdf" target="_blank" className="btn btn-outline">Mon CV</a>
+              <a href="Alex_Cattelin_CV_Epitech.pdf" target="_blank" className="btn btn-outline">Mon CV</a>
             </div>
           </div>
         </section>
