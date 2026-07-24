@@ -1,12 +1,18 @@
+import { useReveal } from '../hooks/useReveal'
+
 function BusinessCase() {
+  const [ref, visible] = useReveal()
+
   return (
     <section id="business-case" className="section">
       <h2 className="section-title">Business Case</h2>
-      <article className="business-card">
-        <div
-          className="business-visual"
-          style={{ backgroundImage: "url('images/illus_jv.png')" }}
-        />
+      <article ref={ref} className={`business-card reveal ${visible ? 'is-visible' : ''}`}>
+        <div className="business-visual-frame">
+          <div
+            className="business-visual"
+            style={{ backgroundImage: "url('images/illus_jv.png')" }}
+          />
+        </div>
         <div className="business-content">
           <h3 className="card-title">Consommation du jeu vidéo</h3>
           <p className="card-desc">

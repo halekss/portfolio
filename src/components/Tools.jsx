@@ -1,10 +1,14 @@
+import { useReveal } from '../hooks/useReveal'
+
 function Tools() {
+  const [ref, visible] = useReveal()
+
   return (
     <section id="tools" className="section">
       <h2 className="section-title">
         <span className="section-number">05 /</span> Outils
       </h2>
-      <div className="tools-grid">
+      <div ref={ref} className={`tools-grid reveal ${visible ? 'is-visible' : ''}`}>
         <div className="tool-category">
           <div className="tool-category-icon">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

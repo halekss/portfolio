@@ -1,3 +1,5 @@
+import { useReveal } from '../hooks/useReveal'
+
 const SKILL_GROUPS = [
   { title: 'Langages & Outils', tags: ['Python', 'SQL'] },
   { title: 'Data Analysis & Viz', tags: ['Pandas', 'NumPy', 'Power BI', 'Seaborn', 'Plotly'] },
@@ -5,12 +7,14 @@ const SKILL_GROUPS = [
 ]
 
 function Skills() {
+  const [ref, visible] = useReveal()
+
   return (
     <section id="skills" className="section">
       <h2 className="section-title">
         <span className="section-number">04 /</span> Compétences
       </h2>
-      <div className="skills-grid">
+      <div ref={ref} className={`skills-grid reveal ${visible ? 'is-visible' : ''}`}>
         {SKILL_GROUPS.map((group) => (
           <div className="skill-card" key={group.title}>
             <h3 className="skill-title">{group.title}</h3>

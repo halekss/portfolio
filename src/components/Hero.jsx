@@ -1,13 +1,28 @@
+import { useReveal } from '../hooks/useReveal'
+import { useCountUp } from '../hooks/useCountUp'
+
 const STATS = [
   { value: '05', label: 'projets livrés' },
   { value: '01', label: 'business case' },
   { value: '2024', label: 'début reconversion data' },
 ]
 
-function Hero() {
+function Stat({ stat, active }) {
+  const value = useCountUp(stat.value, active)
   return (
-    <header id="home" className="hero">
-      <div className="hero-text">
+    <div className="stat">
+      <span className="stat-value">{value}</span>
+      <span className="stat-label">{stat.label}</span>
+    </div>
+  )
+}
+
+function Hero() {
+  const [ref, visible] = useReveal({ threshold: 0.1 })
+
+  return (
+    <header id="home" className="hero" ref={ref}>
+      <div className={`hero-text reveal ${visible ? 'is-visible' : ''}`}>
         <h1>
           Alex Cattelin
           <br />
@@ -24,12 +39,9 @@ function Hero() {
           <a href="#contact" className="btn btn-outline">Me contacter</a>
         </div>
       </div>
-      <div className="hero-stats">
+      <div className={`hero-stats reveal reveal-delay-1 ${visible ? 'is-visible' : ''}`}>
         {STATS.map((stat) => (
-          <div className="stat" key={stat.label}>
-            <span className="stat-value">{stat.value}</span>
-            <span className="stat-label">{stat.label}</span>
-          </div>
+          <Stat stat={stat} active={visible} key={stat.label} />
         ))}
       </div>
     </header>
