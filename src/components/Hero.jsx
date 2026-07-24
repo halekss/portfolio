@@ -1,6 +1,6 @@
 const STATS = [
   { value: '05', label: 'projets livrés' },
-  { value: '02', label: 'business cases' },
+  { value: '01', label: 'business case' },
   { value: '2024', label: 'début reconversion data' },
 ]
 
