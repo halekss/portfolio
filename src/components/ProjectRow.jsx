@@ -19,7 +19,7 @@ function ProjectRow({ project }) {
           ))}
         </span>
         <span className="project-status">{project.status}</span>
-        <span className="project-toggle">{open ? 'v' : '>'}</span>
+        <span className="project-toggle" aria-hidden="true">{open ? 'v' : '>'}</span>
       </button>
       <div className={`project-row-body ${open ? 'is-open' : ''}`}>
         <div className="project-row-body-inner">

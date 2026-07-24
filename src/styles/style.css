@@ -391,6 +391,10 @@ p { margin: 0; }
 
 /* ===== MOBILE ===== */
 @media (max-width: 768px) {
+  html {
+    scroll-padding-top: 64px;
+  }
+
   .app-shell { flex-direction: column; }
 
   .sidebar {
