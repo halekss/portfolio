@@ -368,6 +368,20 @@ p { margin: 0; }
 .card-desc { color: var(--text-muted); font-size: 0.95rem; }
 
 /* ===== BUSINESS CASE ===== */
+.business-carousel {
+  overflow: hidden;
+}
+
+.business-carousel-track {
+  display: flex;
+  transition: transform 0.4s ease;
+}
+
+.business-carousel-slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+
 .business-card {
   display: grid;
   grid-template-columns: 1fr 1.1fr;
@@ -393,6 +407,65 @@ p { margin: 0; }
 .business-visual-frame:hover .business-visual { transform: scale(1.05); }
 
 .business-content .card-desc { margin: 16px 0 24px; }
+
+.carousel-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 30px;
+}
+
+.carousel-arrow {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: none;
+  color: var(--text);
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: border-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.carousel-arrow:hover:not(:disabled) {
+  border-color: var(--accent);
+  color: var(--accent-3);
+  box-shadow: 0 0 15px rgba(var(--accent-rgb), 0.3);
+}
+
+.carousel-arrow:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.carousel-dots {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.carousel-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+.carousel-dot:hover { border-color: var(--accent); }
+
+.carousel-dot.is-active {
+  background-color: var(--accent);
+  border-color: var(--accent);
+  transform: scale(1.2);
+}
 
 /* ===== SKILLS ===== */
 .skills-grid {
@@ -602,4 +675,8 @@ p { margin: 0; }
   .project-row-body-inner { grid-template-columns: 1fr; padding-left: 0; }
 
   .business-card { grid-template-columns: 1fr; }
+
+  .carousel-nav { gap: 16px; margin-top: 20px; }
+
+  .carousel-arrow { width: 34px; height: 34px; font-size: 1rem; }
 }
