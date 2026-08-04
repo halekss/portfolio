@@ -4,6 +4,7 @@
   --bg-darkest: #0d1317;
 
   --deep:      #2a2040;
+  --deep-rgb: 42, 32, 64;
   --indigo:    #3b3b58;
   --violet:    #7a5980;
   --purple:    #a96da3;
@@ -47,7 +48,7 @@ body {
     transparent 0%,
     transparent 35%,
     rgba(13, 19, 23, 0.85) 48%,
-    rgba(16, 29, 66, 0.8) 62%,
+    rgba(var(--deep-rgb), 0.8) 62%,
     rgba(var(--accent-rgb), 0.65) 78%,
     rgba(var(--accent-2-rgb), 0.55) 90%,
     rgba(var(--accent-3-rgb), 0.45) 100%

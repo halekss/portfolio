@@ -26,8 +26,8 @@ function BusinessCase() {
           className="business-carousel-track"
           style={{ transform: `translateX(-${index * 100}%)` }}
         >
-          {businessCases.map((businessCase) => (
-            <div className="business-carousel-slide" key={businessCase.id}>
+          {businessCases.map((businessCase, i) => (
+            <div className="business-carousel-slide" key={businessCase.id} inert={i !== index}>
               <article className="business-card">
                 <div className="business-visual-frame">
                   <div
