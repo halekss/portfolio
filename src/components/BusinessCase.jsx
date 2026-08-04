@@ -6,6 +6,7 @@ function BusinessCase() {
   return (
     <section id="business-case" className="section">
       <h2 className="section-title">Business Case</h2>
+
       <article ref={ref} className={`business-card reveal ${visible ? 'is-visible' : ''}`}>
         <div className="business-visual-frame">
           <div
@@ -29,6 +30,15 @@ function BusinessCase() {
             </a>
           </div>
         </div>
+      </article>
+
+      <article ref={ref} className={`business-card reveal ${visible ? 'is-visible' : ''}`}>
+        <div className="business-visual-frame">
+          <div
+            className="business-visual"
+            style={{ backgroundImage: "url('images/tel_low_cost.png')" }}
+          />
+        </div>
         <div className="business-content">
           <h3 className="card-title">Lancement d'un téléphone entrée de gamme</h3>
           <p className="card-desc">
@@ -43,6 +53,15 @@ function BusinessCase() {
               Support PPT
             </a>
           </div>
+        </div>
+      </article>
+
+      <article ref={ref} className={`business-card reveal ${visible ? 'is-visible' : ''}`}>
+        <div className="business-visual-frame">
+          <div
+            className="business-visual"
+            style={{ backgroundImage: "url('images/eau-potable-fontaineo.png')" }}
+          />
         </div>
         <div className="business-content">
           <h3 className="card-title">Accès et sanité de l'eau</h3>
@@ -60,6 +79,15 @@ function BusinessCase() {
             </a>
           </div>
         </div>
+      </article>
+
+      <article ref={ref} className={`business-card reveal ${visible ? 'is-visible' : ''}`}>
+        <div className="business-visual-frame">
+          <div
+            className="business-visual"
+            style={{ backgroundImage: "url('images/eau-potable-fontaineo.png')" }}
+          />
+        </div>
         <div className="business-content">
           <h3 className="card-title">Lancement d'une boutique de cyclisme</h3>
           <p className="card-desc">
@@ -73,6 +101,7 @@ function BusinessCase() {
           </div>
         </div>
       </article>
+      
     </section>
   )
 }
