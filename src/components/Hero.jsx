@@ -2,9 +2,9 @@ import { useReveal } from '../hooks/useReveal'
 import { useCountUp } from '../hooks/useCountUp'
 
 const STATS = [
-  { value: '05', label: 'projets livrés' },
-  { value: '01', label: 'business case' },
-  { value: '2024', label: 'début reconversion data' },
+  { value: '06', label: 'projets livrés' },
+  { value: '04', label: 'business case' },
+  { value: '2025', label: 'début reconversion data' },
 ]
 
 function Stat({ stat, active }) {
