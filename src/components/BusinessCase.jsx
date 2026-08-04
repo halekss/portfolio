@@ -95,13 +95,13 @@ function BusinessCase() {
             afin de lancer une boutique dans un secteur adéquat.
           </p>
           <div className="btn-group">
-            <a href="buisness_case_bike.pdf" target="_blank" rel="noreferrer" className="btn btn-outline">
+            <a href="buisness_case_bike.pdf" target="_blank" rel="noreferrer" className="btn btn-primary">
               Support PPT (inclus Rapport Power BI)
             </a>
           </div>
         </div>
       </article>
-      
+
     </section>
   )
 }
