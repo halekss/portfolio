@@ -85,7 +85,7 @@ function BusinessCase() {
         <div className="business-visual-frame">
           <div
             className="business-visual"
-            style={{ backgroundImage: "url('images/eau-potable-fontaineo.png')" }}
+            style={{ backgroundImage: "url('images/bike_riding.png')" }}
           />
         </div>
         <div className="business-content">
@@ -95,7 +95,7 @@ function BusinessCase() {
             afin de lancer une boutique dans un secteur adéquat.
           </p>
           <div className="btn-group">
-            <a href="buisness_case_bike.pdf" target="_blank" rel="noreferrer" className="btn btn-primary">
+            <a href="buisness_case_bike.pdf" target="_blank" rel="noreferrer" className="btn btn-">
               Support PPT (inclus Rapport Power BI)
             </a>
           </div>
