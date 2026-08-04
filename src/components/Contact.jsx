@@ -31,18 +31,18 @@ function Contact() {
         </p>
         <ul className="contact-list">
           <li>
-            <span className="contact-label">mail</span>
+            <span className="contact-label">Mail</span>
             <a href={`mailto:${EMAIL}`} onClick={handleCopyEmail}>{EMAIL}</a>
           </li>
           <li>
-            <span className="contact-label">linkedin</span>
+            <span className="contact-label">Linkedin</span>
             <a href="https://www.linkedin.com/in/alex-cattelin/" target="_blank" rel="noreferrer">
               /in/alex-cattelin
             </a>
           </li>
           <li>
-            <span className="contact-label">cv</span>
-            <a href="Alex_Cattelin_CV_Epitech_Alt.pdf" target="_blank" rel="noreferrer">
+            <span className="contact-label">CV</span>
+            <a href="CV_alex_cattelin_Epitech.pdf" target="_blank" rel="noreferrer">
               télécharger le CV
             </a>
           </li>

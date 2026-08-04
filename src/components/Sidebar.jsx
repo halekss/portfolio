@@ -23,14 +23,14 @@ function Sidebar({ activeSection }) {
         </nav>
       </div>
       <div className="sidebar-footer">
-        <a href="mailto:alex_2c@hotmail.fr" className="sidebar-link">mail</a>
+        <a href="mailto:alex_2c@hotmail.fr" className="sidebar-link">Mail</a>
         <a
           href="https://www.linkedin.com/in/alex-cattelin/"
           target="_blank"
           rel="noreferrer"
           className="sidebar-link"
         >
-          linkedin
+          Linkedin
         </a>
       </div>
     </aside>
