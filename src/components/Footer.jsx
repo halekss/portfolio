@@ -5,7 +5,7 @@ function Footer() {
 
   return (
     <footer ref={ref} className={`footer reveal ${visible ? 'is-visible' : ''}`}>
-      <p>&copy; 2025 Alex Cattelin. Portfolio Data Analyst.</p>
+      <p>&copy;Alex Cattelin. Portfolio Data Analyst.</p>
     </footer>
   )
 }
