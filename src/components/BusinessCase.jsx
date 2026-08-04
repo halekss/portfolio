@@ -29,6 +29,49 @@ function BusinessCase() {
             </a>
           </div>
         </div>
+        <div className="business-content">
+          <h3 className="card-title">Lancement d'un téléphone entrée de gamme</h3>
+          <p className="card-desc">
+            Comparaison stratégique des marques et produits fortement implémentés sur le marché
+            afin d'établir un prix concurentiel d'un téléphone entrée de gamme.
+          </p>
+          <div className="btn-group">
+            <a href="pbi_phone.pdf" target="_blank" rel="noreferrer" className="btn btn-primary">
+              Rapport Power BI
+            </a>
+            <a href="ppt_phone.pdf" target="_blank" rel="noreferrer" className="btn btn-outline">
+              Support PPT
+            </a>
+          </div>
+        </div>
+        <div className="business-content">
+          <h3 className="card-title">Accès et sanité de l'eau</h3>
+          <p className="card-desc">
+            Repérage des inégalités dans le monde à l'accès à l'eau potable ou non, et détermination 
+            d'un lieu d'intervention d'une action humanitaire pour permettre l'accès aux plus démunis en
+            fonction de différents facteurs.
+          </p>
+          <div className="btn-group">
+            <a href="pbi_watergate.pdf" target="_blank" rel="noreferrer" className="btn btn-primary">
+              Rapport Power BI
+            </a>
+            <a href="ppt_watergate.pdf" target="_blank" rel="noreferrer" className="btn btn-outline">
+              Support PPT
+            </a>
+          </div>
+        </div>
+        <div className="business-content">
+          <h3 className="card-title">Lancement d'une boutique de cyclisme</h3>
+          <p className="card-desc">
+            Analyse du marché consommateur des vélos et des accessoires de cyclismes + habitudes des usagers 
+            afin de lancer une boutique dans un secteur adéquat.
+          </p>
+          <div className="btn-group">
+            <a href="buisness_case_bike.pdf" target="_blank" rel="noreferrer" className="btn btn-outline">
+              Support PPT (inclus Rapport Power BI)
+            </a>
+          </div>
+        </div>
       </article>
     </section>
   )
