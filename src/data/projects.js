@@ -12,8 +12,20 @@ const projects = [
     link: { label: 'Voir le dépôt Github', url: 'https://github.com/halekss/oracle_loyers.git' },
   },
   {
-    id: 'api-pipeline-viz',
+    id: 'abonneo',
     number: '02',
+    name: 'ABONNEO',
+    tags: ['PostgreSQL', 'FastAPI', 'Next.js'],
+    status: 'DEPLOYÉ',
+    title: 'Abonneo',
+    description:
+      "Suivi des pages tarifiares d'abonnement à des plateformes de services commerciaux, avec détection des hausses de prix/changements de conditions, et transformation en recommandation explicable.",
+    image: 'images/log_abonneo.png',
+    link: { label: 'Voir le dépôt Github', url: 'https://github.com/VRuddy/abonneo.git' },
+  },
+  {
+    id: 'api-pipeline-viz',
+    number: '03',
     name: 'API_PIPELINE_VIZ',
     tags: ['OAuth', 'Github Actions', 'HTML/CSS'],
     status: 'DEPLOYÉ',
@@ -25,7 +37,7 @@ const projects = [
   },
   {
     id: 'scraper-discord',
-    number: '03',
+    number: '04',
     name: 'SCRAPER_DISCORD',
     tags: ['Playwright', 'Asyncio', 'Github Actions', 'Webhook Discord'],
     status: 'DEPLOYÉ',
@@ -37,7 +49,7 @@ const projects = [
   },
   {
     id: 'movie-recommender',
-    number: '04',
+    number: '05',
     name: 'MOVIE_RECOMMENDER',
     tags: ['Streamlit', 'Machine Learning'],
     status: 'DEPLOYÉ',
@@ -49,7 +61,7 @@ const projects = [
   },
   {
     id: 'kpi-toys-models',
-    number: '05',
+    number: '06',
     name: 'KPI_TOYS_MODELS',
     tags: ['Power BI', 'SQL'],
     status: 'DEPLOYÉ',
