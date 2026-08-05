@@ -42,7 +42,7 @@ function Contact() {
           </li>
           <li>
             <span className="contact-label">CV</span>
-            <a href="CV_alex_cattelin_Epitech.pdf" target="_blank" rel="noreferrer">
+            <a href="Alex_Cat_Epitech_CV.pdf" target="_blank" rel="noreferrer">
               télécharger le CV
             </a>
           </li>
