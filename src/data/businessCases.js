@@ -1,7 +1,7 @@
 export const businessCases = [
   {
     id: 'jeux-video',
-    image: 'images/illus_jv.png',
+    image: 'images/play_games.png',
     title: 'Consommation du jeu vidéo',
     description:
       "Analyse approfondie des performances commerciales des jeux vidéos selon différents " +
@@ -14,7 +14,7 @@ export const businessCases = [
   },
   {
     id: 'telephone',
-    image: 'images/tel_low_cost.png',
+    image: 'images/vente_tel.png',
     title: "Lancement d'un téléphone entrée de gamme",
     description:
       "Comparaison stratégique des marques et produits fortement implémentés sur le marché " +
@@ -39,7 +39,7 @@ export const businessCases = [
   },
   {
     id: 'cyclisme',
-    image: 'images/bike_riding.png',
+    image: 'images/boutique_velo.png',
     title: "Lancement d'une boutique de cyclisme",
     description:
       "Analyse du marché consommateur des vélos et des accessoires de cyclismes + habitudes des usagers " +
