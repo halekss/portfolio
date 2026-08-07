@@ -110,6 +110,13 @@ function Tools() {
           <p className="tool-category-desc">Pour structurer mon travail et rester à jour</p>
           <div className="tool-list">
             <div className="tool-item">
+              <div className="tool-item-icon">LN</div>
+              <div>
+                <div className="tool-item-name">Linear</div>
+                <div className="tool-item-desc">Gestion de projets</div>
+              </div>
+            </div>
+            <div className="tool-item">
               <div className="tool-item-icon">DC</div>
               <div>
                 <div className="tool-item-name">Discord</div>
@@ -120,7 +127,7 @@ function Tools() {
               <div className="tool-item-icon">NO</div>
               <div>
                 <div className="tool-item-name">Notion</div>
-                <div className="tool-item-desc">Gestion de projets & notes</div>
+                <div className="tool-item-desc">Notes & guides</div>
               </div>
             </div>
             <div className="tool-item">
