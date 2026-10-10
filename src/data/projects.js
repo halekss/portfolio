@@ -1,7 +1,19 @@
 const projects = [
   {
-    id: 'oracle-loyers',
+    id: 'unibox',
     number: '01',
+    name: 'UNIBOX',
+    tags: ['Next.js', 'PostgreSQL', 'Langflow', 'Ollama', 'OAuth'],
+    status: 'EN LOCAL',
+    title: 'Unibox',
+    description:
+      "Boîte mail unifiée Outlook + Gmail, triée par une IA qui tourne en local (Qwen 2.5 via Ollama et Langflow) : propositions de rangement par dossier et détection des mails à supprimer, validées par l'utilisateur avant d'être appliquées dans les vraies boîtes. Aucun mail ne quitte la machine.",
+    image: 'images/mail.png',
+    link: { label: 'Voir le dépôt Github', url: 'https://github.com/halekss/unibox.git' },
+  },
+  {
+    id: 'oracle-loyers',
+    number: '02',
     name: 'ORACLE_LOYERS',
     tags: ['React', 'Leaflet', 'Web Scraping', 'Chatbot IA', 'XGBoost'],
     status: 'DEPLOYÉ',
@@ -13,7 +25,7 @@ const projects = [
   },
   {
     id: 'abonneo',
-    number: '02',
+    number: '03',
     name: 'ABONNEO',
     tags: ['PostgreSQL', 'FastAPI', 'Next.js'],
     status: 'DEPLOYÉ',
@@ -25,7 +37,7 @@ const projects = [
   },
   {
     id: 'api-pipeline-viz',
-    number: '03',
+    number: '04',
     name: 'API_PIPELINE_VIZ',
     tags: ['OAuth', 'Github Actions', 'HTML/CSS'],
     status: 'DEPLOYÉ',
@@ -37,7 +49,7 @@ const projects = [
   },
   {
     id: 'scraper-discord',
-    number: '04',
+    number: '05',
     name: 'SCRAPER_DISCORD',
     tags: ['Playwright', 'Asyncio', 'Github Actions', 'Webhook Discord'],
     status: 'DEPLOYÉ',
@@ -49,7 +61,7 @@ const projects = [
   },
   {
     id: 'movie-recommender',
-    number: '05',
+    number: '06',
     name: 'MOVIE_RECOMMENDER',
     tags: ['Streamlit', 'Machine Learning'],
     status: 'DEPLOYÉ',
@@ -61,7 +73,7 @@ const projects = [
   },
   {
     id: 'kpi-toys-models',
-    number: '06',
+    number: '07',
     name: 'KPI_TOYS_MODELS',
     tags: ['Power BI', 'SQL'],
     status: 'DEPLOYÉ',
